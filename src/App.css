@@ -1,12 +1,9 @@
+body {}
 
-body{
-  background-color: rgb(255, 252, 252);
-color: black;
-}
 .App {
   text-align: center;
   font-size: 26px;
-  color: rgb(0, 0, 0);
+
 }
 
 .App-logo {
@@ -28,7 +25,7 @@ color: black;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
 .App-link {
@@ -39,13 +36,14 @@ color: black;
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 
-.lightmod{
-  display:"flex";
+.lightmod {
+  display: "flex";
   justify-content: flex-end;
 }
